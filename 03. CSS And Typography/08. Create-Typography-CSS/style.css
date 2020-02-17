@@ -1,0 +1,31 @@
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, serif;
+}
+
+blockquote {
+    border-left: 5px solid rgb(221,221,221);
+    font-style: italic;
+}
+
+blockquote p {
+    margin-left: 20px;
+}
+
+blockquote, p {
+    quotes: none;
+    position: relative;
+    }
+
+blockquote footer {
+    font: 400 italic 16px “futura-pt”, Arial, sans-serif;
+    margin-bottom: 15px;
+    position: absolute;
+    right: 10px;
+    bottom: -18px;
+    }

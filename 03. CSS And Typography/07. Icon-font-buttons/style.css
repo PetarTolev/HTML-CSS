@@ -1,0 +1,26 @@
+p {
+    font-family: sans-serif;
+    width: 100px;
+    height: 30px;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+a { 
+    text-decoration: none;
+    color: white;
+}
+
+i {
+    margin-right: 3px;
+    color: white;
+}
+
+.green {
+    background-color: green;
+}
+
+.orange {
+    background-color: orange;
+}
