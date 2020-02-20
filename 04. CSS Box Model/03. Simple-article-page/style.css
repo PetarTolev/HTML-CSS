@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(238, 238, 238);
+    color: rgb(51, 51, 51);
+}
+
+article {
+    width: 70%;
+    margin: auto;
+}
+
+img {
+    box-sizing: inherit;
+    max-width: 70%;
+}
