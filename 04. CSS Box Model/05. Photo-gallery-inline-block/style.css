@@ -1,14 +1,25 @@
-ul {
-    list-style-type: none;
+body {
+    background-color: grey;
 }
 
-li {
+section {
+    margin: auto;
+}
+
+.gallery {
+    padding: 0;
+}
+
+.gallery li{
+    border: 3px solid black;
+    background-color: white;
+    padding: 5px;
     display: inline-block;
+    width: 28%;
+    vertical-align: middle;
+    margin: 3px;
 }
 
-img {
-    padding: 1rem;
-    border: 0.4rem solid black;
-    max-width: 340px;
-    max-height: 450px;
+.gallery li img {
+    width: 100%;
 }
