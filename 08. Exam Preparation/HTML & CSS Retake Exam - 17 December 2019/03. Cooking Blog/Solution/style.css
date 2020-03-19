@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css?family=Gelasio&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Gelasio, sans-serif;
+    background-image: url('../Images/background.jpg');
+    margin: 0;
+}
+
+header {
+    background-color: #E6E3DE;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h2 {
+    color: #554938;
+    padding-left: 20px;
+}
+
+header nav {
+    width: 20%;
+}
+
+header nav ul {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul li a {
+    color: #554938;
+    text-decoration: none;
+}
+
+
+header div.login-and-search {
+    padding-right: 30px;
+}
+
+header div.login-and-search button {
+    background-color: #554938;
+    color: white;
+    padding: 6px;
+    border-radius: 2px;
+    border: none;
+    margin-right: 20px;
+}
+
+header div.login-and-search a {
+    color: #473d2f;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main div.search-container {
+    background-image: url('../Images/craving.jpg');
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: 100%;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+main div.search-container h1 {
+    color: white;
+    font-size: 46px;
+}
+
+main div.search-container form {
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 350px;
+    padding: 4px;
+    border-radius: 2px;
+}
+
+main div.search-container form a{
+    color: #888181;
+    text-decoration: none;
+}
+
+main div.search-container form input {
+   background-color: transparent;
+   width: 92%;
+   height: 25px;
+   border: none;
+}
+
+.horizontal-card {
+    display: flex;
+    width: 85%;
+    margin: 20px 0;
+    background-color: rgba(230, 227, 222, 0.8);
+}
+
+.horizontal-card img {
+    width: 60%;
+}
+
+.horizontal-card section {
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.horizontal-card section h2 {
+    font-size: 28px;
+}
+
+.horizontal-card section h3 {
+    font-size: 20px;
+}
+
+.horizontal-card section button {
+    background-color: #554938;
+    color: white;
+    border-radius: 2px;
+    border: none;
+    padding: 10px 20px;
+}
+
+main .toolbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+main .toolbox h3 {
+    background-color: rgba(230, 227, 222, 0.6);
+    padding: 10px 40px;
+    margin: 0;
+}
+
+main .toolbox ul {
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    width: 80%;
+
+}
+
+main .toolbox ul li {
+    margin: 20px 40px;
+}
+
+main .toolbox ul li .toolbox-card {
+    background-color: rgba(230, 227, 222, 0.6);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+main .toolbox ul li .toolbox-card img {
+    width: 250px;
+}
+
+main .toolbox ul li .toolbox-card h4 {
+    align-self: center;
+    font-style: italic;
+    font-weight: 300;
+    margin: 15px;
+}
+
+main .toolbox button {
+    background-color: #DB4D35;
+    color: white;
+    padding: 10px 90px;
+    border: none;
+    margin: 20px 0;
+}
+
+footer nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(230, 227, 222, 0.6);
+    height: 90px;
+}
+
+footer nav ul {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer nav ul:nth-child(1) {
+    width: 13%;
+}
+
+footer nav ul:nth-child(2) {
+    width: 18%;
+}
+
+footer nav ul:nth-child(3) {
+    width: 12%;
+}
+
+footer nav ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 0 12px;
+    border-right: 1px solid black;
+}
+
+footer nav ul li:last-child a{
+    border: none;
+}

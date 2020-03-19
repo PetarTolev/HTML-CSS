@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body,
+html,
+.page-wrapper {
+    height: 100%;
+}
+
+body {
+   margin: 0;
+}
+
+.page-wrapper {
+    background-color: #FFD9B0;
+    font-family: Poppins;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article {
+    background-color: #111111;
+    border-radius: 8px;
+    display: flex;
+}
+
+article img {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    width: 60%;
+}
+
+article .form-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding-top: 70px;
+}
+
+article .form-wrapper h2 {
+    color: white;
+    align-self: center;
+    margin-bottom: 40px;
+}
+
+article .form-wrapper form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    align-self: center;
+}
+
+article .form-wrapper form input {
+    background-color: #111111;
+    border: none;
+    border-bottom: 1px solid #999999;
+    margin-bottom: 20px;
+    height: 35px;
+}
+
+article .form-wrapper form input::placeholder {
+    color: #999999;
+    font-size: 16px;
+}
+
+article .form-wrapper form button {
+    color: white;
+    background-color: #EDB77D;
+    border: none;
+    border-radius: 8px;
+    align-self: flex-start;
+    padding: 15px 50px;
+    margin-top: 5px;
+}
