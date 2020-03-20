@@ -1,0 +1,38 @@
+@media only screen and (max-width: 1000px) {
+    main .pair {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main .pair .planet {
+        width: 90%;
+    }
+
+    footer nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .primary footer nav a:nth-child(even) {
+        border: none;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    
+    section.news ul {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    section.news ul li {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

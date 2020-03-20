@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap');
+
+* {
+    box-sizing: border-box;  
+}
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    margin: 0;
+    background-color: #F0E4E4;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F93700;
+    color: white;
+    padding: 0 40px;
+    width: 100%;
+    height: 80px;
+}
+
+header nav {
+    width: 30%;
+    min-width: 400px;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+header .search {
+    display: flex;  
+    width: 30%;
+}
+
+header .search input {
+    border: none;
+    height: 40px;
+    width: 100%;
+}
+
+header .search input::placeholder {
+    padding-left: 10px;
+}
+
+header .search button {
+    background-color: #B6AFAF;
+    border: none;
+    width: 60px;
+    height: 40px;
+
+}
+
+header .search button i {
+    color: white;
+}
+
+header .account {
+    display: flex;
+    align-items: center;
+}
+
+header .account p {
+    margin-left: 10px;
+}
+
+main {
+    padding: 20px 80px;
+}
+
+main .rooms ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+main .rooms .room-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .rooms .room-card p {
+    font-size: 20px;
+    color: #808080;
+    margin: 15px 0;
+}
+
+main .rooms .room-card img {
+    width: 400px;
+    height: 400px;
+}
+
+main article {
+    display: flex;
+    justify-content: space-between;
+}
+
+main article img {
+    width: 65%;
+    height: 600px;
+}
+
+main article div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 30%;
+}
+
+main article h2 {
+    color: #F93700;
+    font-size: 40px;
+    margin: 10px 0;
+}
+
+main article p {
+    color: #808080;
+    font-size: 16px;
+}
+
+main article div button {
+    background-color: #F93700;  
+    color: white;
+    border: none;
+    border-radius: 2px;
+    font-size: 14px;
+    padding: 10px;
+}
+
+main .service {
+    background-color: #CAC3C3;
+    padding: 20px;
+    margin: 20px 0 0 0;
+}
+
+main .service ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+main .service ul li .service-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .service ul li .service-card h5,
+main .service ul li .service-card h3 {
+    margin: 0;
+    color: #474242;
+}
+
+main .service ul li .service-card h5 {
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+main .service ul li .service-card h3 {
+    text-transform: uppercase;
+    margin: 7px;
+}
+
+main .service .service-card img {
+    width: 150px;
+    height: 150px;
+    background-color: #E6D6D6;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 80px;
+}
+
+footer ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+footer nav {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer nav ul {
+    width: 100%;
+    justify-content: space-between;
+    min-width: 430px;
+}
+
+footer nav ul li a {
+    text-decoration: none;
+    color: #474242;
+}
+
+footer nav ul li:first-child a {
+    font-weight: 600;
+}
+
+footer .contacts {
+    display: flex;
+    width: 38%;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 530px;
+}
+
+footer .contacts a {
+    text-decoration: none;
+    color: #474242;
+}
+
+footer .contacts a:first-child {
+    font-weight: 600;
+}
+
+footer .contacts p {
+    color: #474242;
+}
+
+footer .contacts button {
+    width: 130px;
+    height: 30px;
+    color: #808080;
+    border-radius: 4px;
+    background-color: #CAC3C3;
+    border: none;
+}
+
+footer .contacts .social-media ul li a i{
+    font-size: 34px;
+    margin-right: 10px;
+    color: #808080;
+}
