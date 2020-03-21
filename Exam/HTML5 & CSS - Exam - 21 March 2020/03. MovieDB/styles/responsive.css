@@ -1,0 +1,56 @@
+@media only screen and (max-width: 768px) {
+    .main-movie-poster {
+        display: none;
+    }
+
+    .main-movie ul,
+    .main-movie ul li {
+        align-items: center;
+        justify-content: center;
+        width: 95%;
+        height: 95%;
+        padding: 0;
+    }
+
+    iframe {
+        width: 100%;
+        height: 100%;
+    }
+
+    .main-movie {
+        align-items: center;
+        height: 400px;
+    }
+
+    section.movies {
+        margin: 50px 0;
+    }
+}
+
+
+@media only screen and (max-width: 414px) {
+
+    .main-movie ul,
+    .main-movie ul li,
+    iframe {
+        width: 100%;
+        height: 100%;
+    }
+
+    .main-movie {
+        height: 250px;
+    }
+
+    iframe {
+        width: 100%;
+        height: 100%;
+    }
+
+    .movie-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
