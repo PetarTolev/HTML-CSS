@@ -54,11 +54,11 @@ header .search input::placeholder {
 }
 
 header .search button {
+    cursor: pointer;
     background-color: #B6AFAF;
     border: none;
     width: 60px;
     height: 40px;
-
 }
 
 header .search button i {
@@ -85,21 +85,25 @@ main .rooms ul {
     padding: 0;
 }
 
-main .rooms .room-card {
+main .rooms ul li .room-card {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
+main .rooms ul li {
+    width: 23%;
+    height: 80%;
+}
+
+main .rooms ul li .room-card img {
+    width: 100%;
+}
+
 main .rooms .room-card p {
     font-size: 20px;
     color: #808080;
-    margin: 15px 0;
-}
-
-main .rooms .room-card img {
-    width: 400px;
-    height: 400px;
+    margin-top: 15px;
 }
 
 main article {
@@ -131,6 +135,7 @@ main article p {
 }
 
 main article div button {
+    cursor: pointer;
     background-color: #F93700;  
     color: white;
     border: none;
@@ -147,6 +152,7 @@ main .service {
 
 main .service ul {
     list-style-type: none;
+    padding: 0;
     display: flex;
     justify-content: space-around;
 }
@@ -221,7 +227,7 @@ footer .contacts {
     width: 38%;
     justify-content: space-between;
     align-items: center;
-    min-width: 530px;
+    min-width: 550px;
 }
 
 footer .contacts a {
@@ -238,6 +244,7 @@ footer .contacts p {
 }
 
 footer .contacts button {
+    cursor: pointer;
     width: 130px;
     height: 30px;
     color: #808080;
