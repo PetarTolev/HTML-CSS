@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFFFFF;
+}
+
+ul {
+    display: inline-block;
+}
+
+li {
+    list-style: none;
+    background-color: #EEEEEE;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #262626;
+    position: relative;
+    left: 16px;
+    top: 14px;
+    border-radius: 50%;
+}
+
+.facebook:hover {
+    color: #3B5998;
+}
+
+.twitter:hover {
+    color: #00ACED;
+}
+
+.google:hover {
+    color: #DD4B39;
+}
+
+.linkedin:hover {
+    color: #007BB6;
+}
+
+.instagram:hover {
+    color: #567FA4;
+}
+
+i {
+    font-size: 32px;
+}

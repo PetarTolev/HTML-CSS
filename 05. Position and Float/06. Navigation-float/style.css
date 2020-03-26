@@ -1,0 +1,108 @@
+body {
+    font-family: Helvetica, sans-serif;
+    line-height: 1.5;
+    font-size: 16px;
+    background-color: #EEEEEE;
+}
+
+.page-wrapper {
+    margin: auto;
+    width: 1300px;
+}
+
+h2, h3 {
+    font-family: Helveica, serif;;
+}
+
+p.site-title {
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 50px;
+    margin: 0;
+}
+
+header nav { 
+    float: right;
+    position: relative;
+    top: 10px;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: rgb(0, 102, 0);
+}
+
+hr {
+    background-color: black;
+    height: 2px;
+}
+
+main {
+    width: 60%;
+    display: inline-block;
+}
+
+.image-frame {
+    border: 3px solid black;
+    background-color: white;
+    padding: 8px;
+}
+
+.image-one {
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.row > p, blockquote{
+    display: inline-block;
+    margin: 0;
+}
+
+blockquote {
+    font-family: Georgia, serif;
+    vertical-align: top;
+    font-size: 14px;
+    border-left: 4px solid lightgray;
+    padding-left: 30px;
+    font-style: italic;
+    float: right;
+    width: 40%;
+    padding-bottom: 40px;
+}
+
+.row > p {
+    width: 50%;
+}
+
+.image-two {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+aside {
+    width: 20%;
+    display: inline-block;
+    margin-left: 100px;
+    vertical-align: top;
+}
+
+aside nav ul {
+    list-style-type: square;
+}
+
+aside nav ul li a {
+    text-decoration: none;
+    color: #12811B;
+}

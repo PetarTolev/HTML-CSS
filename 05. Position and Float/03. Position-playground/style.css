@@ -1,0 +1,19 @@
+.viewport {
+    border: 1px solid black;
+}
+
+.viewport.top {
+    width: 1500px;
+    height: 1000px;
+}
+
+.viewport.bottom {
+    width: 1500px;
+    height: 900px;
+}
+
+.card {
+    position: absolute;
+    display: block;
+    left: calc(50% - (500px / 2));
+}

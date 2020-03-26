@@ -1,0 +1,44 @@
+@media screen and (max-width: 499px) {
+    * {
+        font-size: 12px;
+    }
+
+    img.image-frame {
+        float: none;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 599px) {
+    * {
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (min-width: 600px) and (max-width: 799px) {
+    * {
+        font-size: 16px;
+    }
+
+}
+
+@media screen and (min-width: 800px) and (max-width: 1299px) {
+    * {
+        font-size: 18px;
+    }
+
+}
+
+@media screen and (min-width: 1300px) and (max-width: 1799px) {
+    * {
+        font-size: 21px;
+    }
+
+}
+
+@media screen and (min-width: 1800px) {
+    * {
+        font-size: 23px;
+    }
+
+}

@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(238, 238, 238);
+}
+
+section {
+    box-shadow: 0px 0px 20px 10px gray;
+    display: inline-block;
+    border-radius: 8px;
+    position: absolute;
+    left: calc(50% - (500px / 2));
+    top: calc(50% - (458px / 2));
+    max-width: 500px;
+}
+
+img {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+div:nth-child(2) {
+    margin: 20px;
+}
+
+button {
+    position: relative;
+    left: 380px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: green;
+    color: white;
+}

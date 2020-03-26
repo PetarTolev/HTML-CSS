@@ -1,0 +1,66 @@
+body {
+    font-family: Helvetica, sans-serif;
+    line-height: 1.5;
+    font-size: 16px;
+    background-color: #EEEEEE;
+}
+
+.page-wrapper {
+    margin: auto;
+    width: 950px;
+}
+
+h2, h3 {
+    font-family: Helveica, serif;;
+}
+
+p.site-title {
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 50px;
+    margin: 0;
+}
+
+hr {
+    background-color: black;
+    height: 2px;
+}
+
+.image-frame {
+    border: 3px solid black;
+    background-color: white;
+    padding: 8px;
+}
+
+.image-one {
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.row > p, blockquote{
+    display: inline-block;
+    margin: 0;
+}
+
+blockquote {
+    vertical-align: top;
+    font-size: 14px;
+    border-left: 4px solid lightgray;
+    padding-left: 30px;
+    font-style: italic;
+    float: right;
+    width: 40%;
+    padding-bottom: 40px;
+}
+
+.row > p {
+    width: 50%;
+}
+
+.image-two {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}

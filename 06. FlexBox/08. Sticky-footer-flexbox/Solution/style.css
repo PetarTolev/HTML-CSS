@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(238, 238, 238);
+    height: 100vh;
+}
+
+header p.title {
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: 600;
+    font-family: Helvetica, serif;
+}
+
+header hr {
+    border: none;
+    height: 3px;
+    background-color: black;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    color: rgb(255, 255, 255);
+    background-color: rgb(102, 102, 102);
+    padding: 0 20px;
+}

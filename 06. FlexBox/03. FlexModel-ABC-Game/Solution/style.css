@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+div {
+    display: flex;
+    align-items: center;
+    max-width: 15vw;
+    height: 35rem;
+    flex-flow: column wrap;
+}
+
+span {
+    display: inline-block;
+    border: 1px solid black;
+    width: 100px;
+    height: 70px;
+    margin: 5px;
+    text-align: center;
+    padding: 23px;
+}
+
+div > span:nth-child(10) {
+    order: 1;
+}
